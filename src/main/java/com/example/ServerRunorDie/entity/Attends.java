@@ -22,7 +22,7 @@ public class Attends {
 	@Column(name = "Status")
 	private int status;
 	
-	@Column(name = "Notes",columnDefinition = "nvarchar(500)")
+	@Column(name = "Notes",columnDefinition = "nvarchar(255)")
 	private String notes;
 	
 	@ManyToOne
