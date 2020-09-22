@@ -36,7 +36,7 @@ public class SubjectsController {
 		subjectRepository.delete(stu);
 		return subjectRepository.findAll();
 	}
-	@DeleteMapping(value = "student/delete/{id}")
+	@DeleteMapping(value = "subject/delete/{id}")
 	public List<Subjects> deleteById(@PathVariable String id){
 		subjectRepository.deleteById(id);
 		return subjectRepository.findAll();

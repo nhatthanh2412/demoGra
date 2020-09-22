@@ -17,25 +17,25 @@ import com.example.ServerRunorDie.service.RoomService;
 public class RoomsController {
 	@Autowired
 	RoomService roomService;
-	@PostMapping(value = "student/save")
+	@PostMapping(value = "room/save")
 	public List<Rooms> saveStudent(@RequestBody Rooms stu){
 		roomService.save(stu);
 		return roomService.findAll();
 	}
-	@GetMapping(value = "student/findAll")
+	@GetMapping(value = "room/findAll")
 	public List<Rooms> findAll(){
 		return roomService.findAll();
 	}
-	@GetMapping(value = "student/getOne/{id}")
+	@GetMapping(value = "room/getOne/{id}")
 	public Rooms findById(@PathVariable("id") int id){
 		return roomService.getOne(id);
 	}
-	@DeleteMapping(value = "student/delete")
+	@DeleteMapping(value = "room/delete")
 	public List<Rooms> delete(@RequestBody Rooms stu){
 		roomService.delete(stu);
 		return roomService.findAll();
 	}
-	@DeleteMapping(value = "student/delete/{id}")
+	@DeleteMapping(value = "room/delete/{id}")
 	public List<Rooms> deleteById(@PathVariable int id){
 		roomService.deleteById(id);
 		return roomService.findAll();
