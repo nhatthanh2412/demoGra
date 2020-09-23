@@ -20,7 +20,7 @@ public class Clazz {
 	@Column(name = "id_class",columnDefinition = "varchar(50)")
 	private String id_class;
 	
-	@Column(name = "name",columnDefinition = "nvarchar(50)")
+	@Column(name = "name",columnDefinition = "varchar(50)")
 	private String name;
 	
 	@Column(name = "status")

@@ -26,7 +26,7 @@ public class Evaluetes {
 	@Column(name = "date")
 	private int date;
 	
-	@Column(name = "notes",columnDefinition = "nvarchar(255)")
+	@Column(name = "notes",columnDefinition = "varchar(255)")
 	private String notes;
 	
 	@ManyToOne

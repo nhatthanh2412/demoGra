@@ -32,10 +32,10 @@ public class Schedules {
 	@Column(name = "date")
 	private Date date;
 	
-	@Column(name = "description",columnDefinition = "nvarchar(500)")
+	@Column(name = "description",columnDefinition = "varchar(500)")
 	private String description;
 	
-	@Column(name = "notes",columnDefinition = "nvarchar(500)")
+	@Column(name = "notes",columnDefinition = "varchar(500)")
 	private String notes;
 	
 	@ManyToOne

@@ -11,13 +11,13 @@ import javax.persistence.Table;
 @Table(name = "Posts")
 public class Posts {
 	@Id
-	@Column(name = "id_post",columnDefinition = "nvarchar(255)")
+	@Column(name = "id_post",columnDefinition = "varchar(255)")
 	private String id_post;
 	
-	@Column(name = "title",columnDefinition = "nvarchar(255)")
+	@Column(name = "title",columnDefinition = "varchar(255)")
 	private String title;
 	
-	@Column(name = "description",columnDefinition = "nvarchar(500)")
+	@Column(name = "description",columnDefinition = "varchar(500)")
 	private String description;
 	
 	@ManyToOne

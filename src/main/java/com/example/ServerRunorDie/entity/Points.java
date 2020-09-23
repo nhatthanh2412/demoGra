@@ -22,7 +22,7 @@ public class Points {
 	@Column(name = "id_points")
 	private int id_points;
 	
-	@Column(name = "namecore",columnDefinition = "nvarchar(50)")
+	@Column(name = "namecore",columnDefinition = "varchar(50)")
 	private String namecore;
 	
 	@Column(name = "tyle")

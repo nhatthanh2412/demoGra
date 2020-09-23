@@ -18,10 +18,10 @@ public class Categorys {
 	@Column(name = "id_categorys",columnDefinition = "varchar(20)")
 	private String id_categorys;
 	
-	@Column(name = "name",columnDefinition = "nvarchar(50)")
+	@Column(name = "name",columnDefinition = "varchar(50)")
 	private String name;
 	
-	@Column(name = "notes",columnDefinition = "nvarchar(255)")
+	@Column(name = "notes",columnDefinition = "varchar(255)")
 	private String notes;
 	
 	@JsonIgnore

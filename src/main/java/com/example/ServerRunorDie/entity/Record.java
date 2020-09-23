@@ -28,13 +28,13 @@ public class Record {
 	@Column(name = "date")
 	private Date date;
 	
-	@Column(name = "content",columnDefinition = "nvarchar(255)")
+	@Column(name = "content",columnDefinition = "varchar(255)")
 	private String content;
 	
 	@Column(name = "tyle")
 	private int tyle;
 	
-	@Column(name = "notes",columnDefinition = "nvarchar(255)")
+	@Column(name = "notes",columnDefinition = "varchar(255)")
 	private String notes;
 	
 	@ManyToOne

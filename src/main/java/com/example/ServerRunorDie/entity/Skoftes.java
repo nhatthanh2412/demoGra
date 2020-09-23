@@ -21,7 +21,7 @@ public class Skoftes {
 	@Column(name = "id_skoftes")
 	private int id_skoftes;
 	
-	@Column(name = "name",columnDefinition = "nvarchar(20)")
+	@Column(name = "name",columnDefinition = "varchar(20)")
 	private String name;
 	
 	@Column(name = "start")

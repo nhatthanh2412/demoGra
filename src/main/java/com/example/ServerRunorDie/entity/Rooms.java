@@ -24,10 +24,10 @@ public class Rooms {
 	@Column(name = "id_rooms")
 	private int id_rooms;
 	
-	@Column(name = "name",columnDefinition = "nvarchar(50)")
+	@Column(name = "name",columnDefinition = "varchar(50)")
 	private String name;
 	
-	@Column(name = "notes",columnDefinition = "nvarchar(255)")
+	@Column(name = "notes",columnDefinition = "varchar(255)")
 	private String notes;
 	
 	@JsonIgnore

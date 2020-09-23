@@ -23,7 +23,7 @@ public class Lecturers {
 	@Column(name = "id_lecturers",columnDefinition = "varchar(20)")
 	private String id_lecturers;
 	
-	@Column(name = "name",columnDefinition = "nvarchar(50)")
+	@Column(name = "name",columnDefinition = "varchar(50)")
 	private String name;
 	
 	@Column(name = "gender")
@@ -34,13 +34,13 @@ public class Lecturers {
 	@Column(name = "birthday")
 	private Date birthday;
 	
-	@Column(name = "email",columnDefinition = "nvarchar(50)")
+	@Column(name = "email",columnDefinition = "varchar(50)")
 	private String email;
 	
-	@Column(name="address",columnDefinition = "nvarchar(255)")
+	@Column(name="address",columnDefinition = "varchar(255)")
 	private String address;
 	
-	@Column(name = "identity_card",columnDefinition = "nchar(5)")
+	@Column(name = "identity_card",columnDefinition = "varchar(5)")
 	private String identity_card;
 	
 	@Column(name = "avt")

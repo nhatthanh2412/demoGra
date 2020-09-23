@@ -18,10 +18,10 @@ public class Major {
 	@Column(name = "id_major",columnDefinition = "varchar(20)")
 	private String id_major;
 	
-	@Column(name = "name",columnDefinition = "nchar(255)")
+	@Column(name = "name",columnDefinition = "varchar(255)")
 	private String name;
 	
-	@Column(name = "notes",columnDefinition = "nvarchar(255)")
+	@Column(name = "notes",columnDefinition = "varchar(255)")
 	private String notes;
 	
 	@JsonIgnore

@@ -20,7 +20,7 @@ public class Subjects {
 	@Column(name = "id_subjects",columnDefinition = "varchar(20)")
 	private String id_subjects;
 	
-	@Column(name = "name",columnDefinition = "nvarchar(50)")
+	@Column(name = "name",columnDefinition = "varchar(50)")
 	private String name;
 	
 	@Column(name = "credit")
@@ -29,7 +29,7 @@ public class Subjects {
 	@Column(name = "session")
 	private int session;
 	
-	@Column(name = "notes",columnDefinition = "nvarchar(255)")
+	@Column(name = "notes",columnDefinition = "varchar(255)")
 	private String notes;
 	
 	@ManyToOne

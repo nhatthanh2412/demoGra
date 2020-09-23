@@ -12,7 +12,7 @@ public class Course {
 	@Column(name = "id_course",columnDefinition = "varchar(20)")
 	private String id_course;
 	
-	@Column(name = "name",columnDefinition = "nvarchar(50)")
+	@Column(name = "name",columnDefinition = "varchar(50)")
 	private String name;
 
 	public Course(String id_course, String name) {

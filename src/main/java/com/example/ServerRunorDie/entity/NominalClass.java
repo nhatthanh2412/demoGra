@@ -14,7 +14,7 @@ public class NominalClass {
 	@Column(name = "id_niminalclass",columnDefinition = "varchar(50)")
 	private String id_nominalclass;
 	
-	@Column(name = "name" ,columnDefinition = "nvarchar(50)")
+	@Column(name = "name" ,columnDefinition = "varchar(50)")
 	private String name;
 	
 	@ManyToOne
